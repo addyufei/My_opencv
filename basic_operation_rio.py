@@ -32,7 +32,7 @@ deng = img[img_roi_y:(img_roi_y+img_roi_height),
        img_roi_x:(img_roi_x+img_roi_width),
        1:2]
 """
-3维数组，第一维 y坐标 第二维 x坐标 第3维 B G R
+3维数组，第一维 y坐标（行数） 第二维 x坐标（列数） 第3维 B G R
 """
 img[0:104,0:175,1:2] = deng
 plt.imshow(img)
